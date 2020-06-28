@@ -6,11 +6,15 @@ from BubbleSort import BubbleSort
 from HashTable import HashTable
 
 def main():
+	#Data Structures
 	LinkedList.test()
 	QueueArray.test()
 	QueueLL.test()
 	ResizingArray.test()
-	BubbleSort.test()
 	HashTable.test()
-
+	
+	#Search / Sort
+	BinarySearch.test()
+	BubbleSort.test()
+	
 main()
