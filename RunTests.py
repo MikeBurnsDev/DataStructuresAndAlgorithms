@@ -12,6 +12,7 @@ def main():
 	QueueLL.test()
 	ResizingArray.test()
 	HashTable.test()
+	BinarySearchTree.test()
 	
 	#Search / Sort
 	BinarySearch.test()
