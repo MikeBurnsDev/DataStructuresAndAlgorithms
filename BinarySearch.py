@@ -50,5 +50,3 @@ class BinarySearch:
 			foundIndexIterative = BinarySearch.searchIterative(testArr,999)
 			assert foundIndexRecursive == foundIndexIterative == None		
 		print("Binary Search tests passed.")
-
-BinarySearch.test()

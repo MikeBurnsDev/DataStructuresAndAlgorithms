@@ -223,7 +223,7 @@ class BinarySearchTree:
 		assert bst.get_parent(75).value == 80
 		assert bst.get_parent(50) == None
 		
-		bst.print()
+		#bst.print()
 		
 		toString = bst.to_string()
 		prevVal = None
@@ -246,14 +246,9 @@ class BinarySearchTree:
 		
 		assert bst.isBst()
 		
-		bst.remove(60)
-		bst.print()
-		
-		bst.remove(40)
-		bst.print()
-		
+		bst.remove(60)		
+		bst.remove(40)		
 		bst.remove(70)		
-		bst.print()
 		
 		assert not bst.contains(40)
 		assert bst.height() == 5
